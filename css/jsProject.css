@@ -1,0 +1,81 @@
+body{
+  background-color: #f4dff6;
+  font-family: 'Oswald', 'Futura', sans-serif;
+  margin: 0; 
+  padding: 0;
+}
+
+#header{
+  background-color: #f2ccf5;
+  font-family: 'Oswald', 'Futura', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0; 
+  padding: 20 70;
+}
+
+#loginForm {
+  background-color: #f2dff4;
+  font-family: 'Oswald', 'Futura', sans-serif;
+  margin: 0; 
+  padding: 5 60;
+    
+}
+
+fieldset{
+    width: 300px;
+    padding: 20px;
+}
+
+input[type="text"]{
+    width: 120px;
+    border: 1px solid #be81ad;
+    padding: 2px;
+    outline: none;
+    margin: 3;
+}
+
+input[type="password"]{
+    width: 120px;
+    border: 1px solid #be81ad;
+    padding: 2px;
+    outline: none;
+    margin: 3;
+}
+
+input[type="submit"]{
+    margin-left: 230px; 
+    margin-top: 10px;
+    padding: 10 auto;
+    background-color: #edaafc9e;
+    font-size: 16px;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    border: 1px solid #b55a9b;
+    border-radius: 6px;
+}
+
+
+input[type="text"]:focus, input[type="text"]:hover{
+    background-color: #f5e8f8;
+    border: 1px solid #be81ad;
+}
+
+input[type="password"]:focus, input[type="password"]:hover{
+    background-color: #f5e8f8;
+    border: 1px solid #be81ad;
+}
+
+input[type="submit"]:focus, input[type="submit"]:hover{
+    background-color: #f5e8f8;
+    border: 1px solid #be81ad;
+    font-size: 16px;
+}
+
+.title{
+    float: left;
+    width: 160px;
+    clear: left;
+    margin: 3;
+    font-size: 16px;
+
+}

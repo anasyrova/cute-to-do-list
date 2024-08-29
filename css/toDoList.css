@@ -1,0 +1,205 @@
+body{
+    background-color: #f1e5f3;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    margin: 0; 
+    padding: 0;
+  }
+  
+
+
+#header{
+    background-color: #f2ccf5;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0; 
+    padding: 20 70;
+  }
+
+
+#numOfTasks{
+    border-top: 3px solid #de7fe4; 
+    border-bottom: 3px solid #de7fe4; 
+    margin: 0; 
+    
+
+}
+
+#listDiv{
+    border-bottom: 3px solid #de7fe4; 
+    margin: 0; 
+}
+h2 {
+  color: #020101;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0; 
+  padding: 20 70;
+
+}
+
+  
+h2 span {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    top:0;
+    height: 22px;
+    width: 26px;
+    padding: 4 1 3 1;
+}
+
+#actionsContainer {
+
+    display: flex;
+    
+    Top: 200 px;
+    left: 70px; 
+
+    background-color: #f1e5f3; 
+    padding: 20 70;
+    gap: 10px;
+    align-items: center;
+}
+
+
+#noMessage{
+    font-family: 'Oswald', 'Futura', sans-serif;
+    font-size: 12pt;
+    margin: 0; 
+    
+    padding-left: 10px;
+    display: flex;
+
+}
+
+#addingItem{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+#newInput{
+    width: 160px;
+    
+    margin-top: 5.5px; 
+    margin-left: 0px;
+    
+    font-size: 16px;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    
+    border: 1px solid #be81ad;
+    border-radius: 6px;
+
+}
+
+  
+ul {
+    border:none;
+    padding: 0;
+    margin: 0;
+
+    max-height: 400px; 
+    overflow-y: auto;
+
+}
+  
+li {
+    background-color:  #f2ccf5;
+    color: #e565c7;
+    border-top: 1px solid  #f2ccf5;
+    border-bottom: 1px solid  #ebabef;
+    font-size: 24px;
+    letter-spacing: .01em;
+   
+    height: 20px;
+    padding: 20 70;
+}
+
+ 
+
+input[type="text"]:focus, input[type="text"]:hover{
+    background-color: #f5e8f8;
+    border: 1px solid #be81ad;
+}
+
+
+button{
+    margin-top: 5; 
+    margin-left: 10;
+    
+    background-color: #edaafc9e;
+    font-size: 16px;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    border: 1px solid #b55a9b;
+    border-radius: 6px;
+}
+
+
+#editedInput{
+    margin-top: 0; 
+    margin-left: 10px;
+    
+    font-size: 16px;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    
+    
+    border: 1px solid #be81ad;
+    border-radius: 6px;
+    
+
+}
+
+
+#editedInput:focus, #editedInput:hover{
+    background-color: #f5e8f8;
+    border: 1px solid #be81ad;
+    font-size: 16px;
+}
+
+button:focus, button:hover{
+    background-color: #f5e8f8;
+    border: 1px solid #be81ad;
+    font-size: 16px;
+    color:black;
+}
+
+button.edit{
+    float: right;
+    color: rgb(119, 4, 104);
+}
+
+button.remove{
+    float:right;
+    color:  rgb(119, 4, 104);
+
+    
+}
+
+button.edit:focus, button.edit:hover{
+    background-color: #f2d7f8;
+    color: black;
+}
+
+button.remove:focus, button.remove:hover{
+    background-color: #f2d7f8;
+    color: black;
+}
+
+
+
+li:hover{
+    background-color: #e9b7f4;
+    color: black;
+    display:block;
+    text-decoration:none;
+}
+
+input[type="checkbox"] {
+    margin-right: 15px; /* Adjust as needed */
+}
